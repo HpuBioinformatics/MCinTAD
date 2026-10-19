@@ -1,10 +1,7 @@
-# MCinTAD: identifying nested topologically associating domains from multi-way chromatin interaction data via hypergraph representation and deep learning
 
 # About
 
-MCinTAD aims to utilize high-order interaction data to identify TAD boundaries and obtain nested TADs.
-
-MCinTAD first employs hypergraph to represent multi‑way chromatin interactions and combines hypergraph random walk to construct feature representations that reflect  local interaction patterns. The feature matrix is input into a dual‑branch network that integrates local structural features and genome sequence‑dependent features to predict boundary positions. Candidate boundaries are further filtered using original node transition probabilities. Finally, a hierarchical agglomerative strategy based on hyperedge cut ratio is applied to generate nested TADs.
+MCinTAD aims to utilize high-order interaction data to identify nested topologically associating domains.
 
 
 # Requirements
